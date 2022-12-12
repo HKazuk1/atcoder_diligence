@@ -1,3 +1,5 @@
+# @u2dayo様のコードを参考にしました
+
 import io
 import sys
 _INPUT = """\
