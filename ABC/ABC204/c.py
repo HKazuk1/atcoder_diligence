@@ -1,12 +1,11 @@
 import io
 import sys
 _INPUT = """\
-4 5
+4 4
 1 2
 2 3
 3 4
 4 1
-4 2
 """
 sys.stdin = io.StringIO(_INPUT)
 
@@ -20,7 +19,6 @@ for i in range(M):
     A, B = map(int, input().split())
     G[A-1].append(B-1)
 
-print(G)
 ans = 0
 for i in range(N):
     visited = [0]*N
